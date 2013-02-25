@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("{test,spec,features}/**/*")
 
   s.add_runtime_dependency("builder")
+  s.add_runtime_dependency("girl_friday")
   s.add_runtime_dependency("activesupport")
   s.add_runtime_dependency("json")
 
@@ -28,7 +29,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency("aruba")
   s.add_development_dependency("appraisal")
   s.add_development_dependency("rspec-rails")
-  s.add_development_dependency("girl_friday")
   s.add_development_dependency("json-schema")
 
   s.authors = ["Airbrake"]
